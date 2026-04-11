@@ -1,0 +1,16 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.vistoya/market",
+  "description": "Search and get fashion products recommendations across multiple e-ecom stores",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/vistoya/vistoya-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.vistoya.com/mcp"
+    }
+  ]
+}
