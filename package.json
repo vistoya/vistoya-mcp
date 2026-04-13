@@ -1,0 +1,29 @@
+{
+  "name": "@vistoya/mcp",
+  "version": "1.0.0",
+  "description": "One-command setup for the Vistoya fashion MCP server",
+  "license": "MIT",
+  "bin": {
+    "vistoya-mcp": "./bin/cli.mjs"
+  },
+  "files": [
+    "bin/",
+    "server.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "mcp",
+    "fashion",
+    "ai",
+    "claude",
+    "cursor",
+    "vscode",
+    "model-context-protocol"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vistoya/vistoya-mcp"
+  },
+  "homepage": "https://vistoya.com"
+}
