@@ -7,6 +7,14 @@ Semantic search and recommendations across fashion stores, exposed as a Model Co
 - **Transport:** Streamable HTTP
 - **Website:** https://vistoya.com
 
+## Quick setup
+
+```sh
+npx @vistoya/mcp
+```
+
+Automatically detects and configures Claude Desktop, Claude Code, Cursor, Windsurf, and VS Code. Restart your AI client after running.
+
 ## What it does
 
 Vistoya indexes fashion products from many stores and embeds them with a vision-language model. The MCP server lets agents query that index in natural language and reason over the results.
@@ -21,7 +29,7 @@ Vistoya indexes fashion products from many stores and embeds them with a vision-
 | `get_filters` | List available filter values (categories, colors, materials, brands, …) so the agent knows what's filterable. |
 | `list_stores` | List all indexed stores with their metadata. |
 
-## Install
+## Manual install
 
 ### Claude Desktop / Claude Code
 
@@ -85,10 +93,10 @@ Use [`mcp-remote`](https://www.npmjs.com/package/mcp-remote) as a bridge:
 
 Once connected, try:
 
-- "Find me black leather jackets under $300"
-- "Show me dresses similar to product `abc123`"
-- "What stores does Vistoya index right now?"
-- "Recommend a minimalist outfit for spring"
+- "Find me a black leather jacket under $300"
+- "Show me something similar to this product"
+- "What cozy sweaters do you have for fall?"
+- "Find me running shorts under $100"
 
 ## Discoverability
 
