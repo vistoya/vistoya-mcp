@@ -24,10 +24,12 @@ Vistoya indexes fashion products from many stores and embeds them with a vision-
 | Tool | Description |
 | --- | --- |
 | `discover_products` | Semantic search across all indexed stores. Accepts a natural-language query plus optional filters (category, color, gender, price, etc.) and returns ranked products. |
-| `find_similar` | Given a product ID, return visually and semantically similar products. |
+| `find_similar_products` | Given a product ID, return visually and semantically similar products. |
+| `discover_brands` | Semantic search over brand profiles. Find brands by style, origin, or aesthetic (e.g. "Italian streetwear brands", "minimalist Scandinavian labels"). |
+| `find_similar_brands` | Given a brand name or key, return similar brands using brand-profile vectors. |
 | `get_product` | Fetch full details for a single product by ID. |
+| `render_product_list` | ChatGPT Apps SDK only. Same inputs as `discover_products`, but ChatGPT renders the result as a visual product grid via an embedded widget. |
 | `get_filters` | List available filter values (categories, colors, materials, brands, …) so the agent knows what's filterable. |
-| `list_stores` | List all indexed stores with their metadata. |
 
 ## Manual install
 
